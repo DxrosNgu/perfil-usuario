@@ -15,4 +15,4 @@ spring.h2.console.path: /h2-console
 spring.jpa.open-in-view: false
 
 #logging.level.org.springframework.web: DEBUG
-logging.level.org.hibernate: DEBUG
+#logging.level.org.hibernate: DEBUG
