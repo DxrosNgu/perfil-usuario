@@ -1,0 +1,15 @@
+2025-02-21 18:51:20.116820-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.cliente_id,c1_0.contrasenia,c1_0.estado,c1_0.persona_id from cliente c1_0 where c1_0.cliente_id=? [42104-232]
+2025-02-21 18:51:22.521215-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.cliente_id,c1_0.contrasenia,c1_0.estado,c1_0.persona_id from cliente c1_0 where c1_0.cliente_id=? [42104-232]
+2025-02-21 18:52:24.188722-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.cliente_id,c1_0.contrasenia,c1_0.estado,c1_0.persona_id from cliente c1_0 where c1_0.cliente_id=? [42104-232]
+2025-02-21 18:52:26.473028-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.cliente_id,c1_0.contrasenia,c1_0.estado,c1_0.persona_id from cliente c1_0 where c1_0.cliente_id=? [42104-232]
+2025-02-21 18:52:27.265292-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.cliente_id,c1_0.contrasenia,c1_0.estado,c1_0.persona_id from cliente c1_0 where c1_0.cliente_id=? [42104-232]

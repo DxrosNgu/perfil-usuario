@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS CLIENTE;
+DROP TABLE IF EXISTS PERSONA;
+
+CREATE TABLE PERSONA (
+    persona_id VARCHAR(36) PRIMARY KEY,
+    nombre VARCHAR(100),
+    genero CHAR(1) CHECK (genero IN ('M', 'F')),
+    edad INT,
+    identificacion VARCHAR(50) UNIQUE NOT NULL,
+    direccion VARCHAR(255),
+    telefono VARCHAR(20)
+);
+
+CREATE TABLE CLIENTE (
+    cliente_id VARCHAR(36) PRIMARY KEY,
+    persona_id VARCHAR(36) NOT NULL,
+    contrasenia VARCHAR(255) NOT NULL,
+    estado BOOLEAN NOT NULL DEFAULT TRUE,
+    FOREIGN KEY (persona_id) REFERENCES PERSONA(persona_id) ON DELETE CASCADE
+);
